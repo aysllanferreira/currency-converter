@@ -3,8 +3,8 @@ import fetchApi from "../Constants/fetchApi";
 function Home() {
   const [user, setUser] = useState("");
   const [options, setOptions] = useState([]);
-  const [curr1, setCurr1] = useState();
-  const [curr2, setCurr2] = useState();
+  const [curr1, setCurr1] = useState("usd");
+  const [curr2, setCurr2] = useState("usd");
   const [curr3, setCurr3] = useState("usd");
   const [curr4, setCurr4] = useState("usd");
 
